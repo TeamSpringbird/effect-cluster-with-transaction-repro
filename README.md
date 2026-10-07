@@ -1,5 +1,7 @@
 # `ClusterSchema.WithTransaction`: a typed handler failure loses its reply
 
+Reported upstream: https://github.com/Effect-TS/effect/issues/8883
+
 `effect@4.0.1` (also `4.0.0`; the code is unchanged on `main`). Node 22.5+
 (uses `node:sqlite`, so nothing to install or run besides this).
 
