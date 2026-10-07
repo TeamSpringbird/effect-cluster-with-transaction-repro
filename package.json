@@ -1,0 +1,22 @@
+{
+  "name": "effect-cluster-with-transaction-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "tsx repro.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@effect/platform-node": "4.0.1",
+    "@effect/sql-sqlite-node": "4.0.1",
+    "effect": "4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
